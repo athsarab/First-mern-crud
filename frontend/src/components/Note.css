@@ -1,0 +1,42 @@
+.table-container {
+  margin: 50px auto; /* Center the container horizontally and add space around it */
+  max-width: 800px; /* Limit the maximum width of the table */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.delete-button {
+  padding: 8px 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+.update-button {
+  padding: 8px 16px;
+  background-color: darkgoldenrod;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.update-button:hover {
+  background-color: goldenrod;
+}

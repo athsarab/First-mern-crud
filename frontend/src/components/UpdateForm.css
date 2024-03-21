@@ -1,0 +1,40 @@
+.update-form-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .update-form-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .update-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-form input,
+  .update-form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .update-form button {
+    padding: 10px 20px;
+    background-color: green; /* Change the background color to green */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .update-form button:hover {
+    background-color: darkgreen; /* Change the hover color to a darker shade of green */
+  }
+  

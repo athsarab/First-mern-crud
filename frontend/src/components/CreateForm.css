@@ -1,0 +1,40 @@
+.create-form-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .create-form-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .create-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-form input,
+  .create-form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .create-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .create-form button:hover {
+    background-color: #0056b3;
+  }
+  
